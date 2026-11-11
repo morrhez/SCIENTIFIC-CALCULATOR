@@ -47,11 +47,9 @@ Here's a quick look at what it can do:
 
 I wanted the calculator to have a slightly different look from the usual ones we see everywhere.
 
-The interface uses a dark theme with soft shadows, glowing indicators and different colours for different buttons.
+The interface uses a dark theme with soft red, glowing indicators for different buttons.
 
-Orange is used for mathematical operations, while green is used for scientific functions. The overall dark background keeps everything looking clean without making the screen too crowded.
-
-I took some inspiration from physical scientific calculators like the Casio fx-82MS, but wanted to give mine a bit more modern and digital look.
+I took some inspiration from physical scientific calculators like the Casio fx-82MS, but wanted to give mine a bit different and digital look.
 
 ---
 
@@ -64,7 +62,7 @@ The calculator is made using HTML, CSS and JavaScript.
 3. JavaScript does the actual calculations and makes the buttons functional.
 4. Whenever you click a button, JavaScript updates the expression on the display.
 5. When you press `=`, the expression is processed and the result is displayed.
-6. For trigonometric functions, the calculator converts degrees into radians internally before calculating the result.
+6. For trigonometric functions, the calculator converts radians into degrees internally and round-off it before calculating the result.
 
 The calculations are handled using JavaScript's built-in mathematical functions.
 
@@ -77,6 +75,8 @@ The calculations are handled using JavaScript's built-in mathematical functions.
 | `index.html` | Contains the main structure, display and calculator buttons |
 | `style.css` | Handles the design, dark theme, shadows and button styling |
 | `script.js` | Handles calculations and scientific functions |
+| `screenshot.png` | Picture of the calculator's interface |
+
 
 I kept the HTML, CSS and JavaScript in separate files to make things easier to manage and modify and also because I've learned that doing this is a good practice.
 
@@ -104,9 +104,9 @@ That's it! Your calculator should be ready to use.
 
 ## Things worth knowing about this
 
-**No installation required.** The entire project runs in your browser. There is no need to install Python, Node.js or any additional libraries.
+**No installation required.** The entire project runs in your browser. There is no need to install any additional libraries.
 
-**Degree-based trigonometry.** Functions like sin, cos and tan calculate angles in degrees by default. You do not need to switch between DEG and RAD modes.
+**Degree-based trigonometry.** Functions like sin, cos and tan calculate angles in degrees by default.
 
 **Button-based input.** All calculations are performed using the calculator's on-screen buttons.
 
