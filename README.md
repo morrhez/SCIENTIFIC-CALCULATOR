@@ -10,7 +10,9 @@ The trigonometric functions work in degrees by default, so you can directly ente
 
 The best part is that you do not need to install anything to use it. Just open it in your browser and you're good to go.
 
-*The calculator's dark interface.*
+![calculator's interface](screenshot.png)
+
+*The calculator's dark red interface.*
 
 ---
 
